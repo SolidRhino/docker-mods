@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv bash
+apk info --installed gnome-terminal >/dev/null || apk add gnome-terminal --no-cache nautilus
